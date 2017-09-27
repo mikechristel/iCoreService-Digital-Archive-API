@@ -1,0 +1,536 @@
+﻿{
+  "branches": [
+    {
+      "branchID": "02_01",
+      "branchName": "Black Community Life",
+      "branchValues": [
+        {
+          "id": "02_01_01",
+          "label": "Neighborhood"
+        },
+        {
+          "id": "02_01_02",
+          "label": "Local Haunts"
+        },
+        {
+          "id": "02_01_03",
+          "label": "Church / Religion"
+        },
+        {
+          "id": "02_01_04",
+          "label": "Schools"
+        },
+        {
+          "id": "02_01_05",
+          "label": "Politics"
+        },
+        {
+          "id": "02_01_06",
+          "label": "Leadership"
+        },
+        {
+          "id": "02_01_07",
+          "label": "Music"
+        },
+        {
+          "id": "02_01_08",
+          "label": "Food"
+        },
+        {
+          "id": "02_01_09",
+          "label": "Housing"
+        },
+        {
+          "id": "02_01_10",
+          "label": "Culture / Values / Traditions"
+        },
+        {
+          "id": "02_01_11",
+          "label": "Uplifting the Race"
+        },
+        {
+          "id": "02_01_13",
+          "label": "It Takes a Village"
+        },
+        {
+          "id": "02_01_14",
+          "label": "Supporting Black-Owned"
+        }
+      ]
+    },
+    {
+      "branchID": "02_02",
+      "branchName": "Racial Issues",
+      "branchValues": [
+        {
+          "id": "02_02_01",
+          "label": "Discrimination / Experience of Racism"
+        },
+        {
+          "id": "02_02_02",
+          "label": "Bigotry / Racial Stereotyping"
+        },
+        {
+          "id": "02_02_03",
+          "label": "Racial Violence / Riots / Hate Crimes"
+        },
+        {
+          "id": "02_02_05",
+          "label": "Negative Effects of Segregation"
+        },
+        {
+          "id": "02_02_06",
+          "label": "Positive Effects of Segregation"
+        },
+        {
+          "id": "02_02_07",
+          "label": "Desegregation / Integration"
+        },
+        {
+          "id": "02_02_08",
+          "label": "Race Relations"
+        },
+        {
+          "id": "02_02_16",
+          "label": "Intra-Racial Relations"
+        }
+      ]
+    },
+    {
+      "branchID": "02_04",
+      "branchName": "Social Dimensions Issues",
+      "branchValues": [
+        {
+          "id": "02_04_01",
+          "label": "Urban Issues"
+        },
+        {
+          "id": "02_04_03",
+          "label": "Criminality"
+        },
+        {
+          "id": "02_04_06",
+          "label": "Public Health Issues"
+        },
+        {
+          "id": "02_04_07",
+          "label": "Social Welfare Issues"
+        },
+        {
+          "id": "02_04_08",
+          "label": "Education Issues"
+        },
+        {
+          "id": "02_04_09",
+          "label": "Color Caste / Mixed Race Issues"
+        },
+        {
+          "id": "02_04_10",
+          "label": "Class / Status Issues"
+        },
+        {
+          "id": "02_04_11",
+          "label": "Gender Issues"
+        },
+        {
+          "id": "02_04_13",
+          "label": "Abuse"
+        },
+        {
+          "id": "02_04_16",
+          "label": "Multicultural Issues"
+        },
+        {
+          "id": "02_04_17",
+          "label": "Diversity Initiatives / Affirmative Action"
+        },
+        {
+          "id": "02_04_18",
+          "label": "Media Issues"
+        },
+        {
+          "id": "02_04_19",
+          "label": "Economic Issues"
+        }
+      ]
+    },
+    {
+      "branchID": "04_05",
+      "branchName": "Personal Values",
+      "branchValues": [
+        {
+          "id": "04_05_01",
+          "label": "Ethics"
+        },
+        {
+          "id": "04_05_02",
+          "label": "Work Ethic"
+        },
+        {
+          "id": "04_05_03",
+          "label": "Self Reliance / Independence"
+        },
+        {
+          "id": "04_05_04",
+          "label": "Value of Education"
+        },
+        {
+          "id": "04_05_05",
+          "label": "Lack of Respect for Education"
+        },
+        {
+          "id": "04_05_06",
+          "label": "Activism"
+        },
+        {
+          "id": "04_05_08",
+          "label": "Dedication"
+        },
+        {
+          "id": "04_05_10",
+          "label": "Spirituality"
+        },
+        {
+          "id": "04_05_11",
+          "label": "Philanthropy"
+        },
+        {
+          "id": "04_05_12",
+          "label": "Inherited Values"
+        },
+        {
+          "id": "04_05_13",
+          "label": "Responsible / Engaged Citizenship"
+        }
+      ]
+    },
+    {
+      "branchID": "04_04",
+      "branchName": "Formative Experiences",
+      "branchValues": [
+        {
+          "id": "04_04_01",
+          "label": "Disappointments"
+        },
+        {
+          "id": "04_04_02",
+          "label": "Turning Points"
+        },
+        {
+          "id": "04_04_03",
+          "label": "Moving / Relocating"
+        },
+        {
+          "id": "04_04_04",
+          "label": "Accomplishments"
+        },
+        {
+          "id": "04_04_05",
+          "label": "Motivations"
+        },
+        {
+          "id": "04_04_06",
+          "label": "Public Recognition"
+        },
+        {
+          "id": "04_04_07",
+          "label": "Death / Loss"
+        },
+        {
+          "id": "04_04_08",
+          "label": "Life Lessons"
+        },
+        {
+          "id": "04_04_09",
+          "label": "Challenges / Conflicts"
+        }
+      ]
+    },
+    {
+      "branchID": "04_01",
+      "branchName": "Life Plans",
+      "branchValues": [
+        {
+          "id": "04_01_01",
+          "label": "Hopes / Dreams"
+        },
+        {
+          "id": "04_01_02",
+          "label": "Expectations / Planning"
+        },
+        {
+          "id": "04_01_03",
+          "label": "Finding Opportunities"
+        },
+        {
+          "id": "04_01_04",
+          "label": "Choices / Choosing Directions"
+        }
+      ]
+    },
+    {
+      "branchID": "04_02",
+      "branchName": "Personal Identity",
+      "branchValues": [
+        {
+          "id": "04_02_01",
+          "label": "Family Identity"
+        },
+        {
+          "id": "04_02_02",
+          "label": "Geographic Identity"
+        },
+        {
+          "id": "04_02_03",
+          "label": "Class Identity"
+        },
+        {
+          "id": "04_02_04",
+          "label": "Gender Identity"
+        },
+        {
+          "id": "04_02_05",
+          "label": "Ethnic / Racial Identity"
+        },
+        {
+          "id": "04_02_06",
+          "label": "Spiritual / Religious Identity"
+        },
+        {
+          "id": "04_02_07",
+          "label": "Identity Conflicts / Double Conciousness"
+        },
+        {
+          "id": "04_02_08",
+          "label": "Personal Legacy"
+        },
+        {
+          "id": "04_02_09",
+          "label": "Professional Identity"
+        },
+        {
+          "id": "04_02_10",
+          "label": "Political Identity"
+        }
+      ]
+    },
+    {
+      "branchID": "04_03",
+      "branchName": "Important Relationships",
+      "branchValues": [
+        {
+          "id": "04_03_01",
+          "label": "Friends / Family"
+        },
+        {
+          "id": "04_03_02",
+          "label": "Peers"
+        },
+        {
+          "id": "04_03_03",
+          "label": "Influences"
+        },
+        {
+          "id": "04_03_04",
+          "label": "Role Models"
+        },
+        {
+          "id": "04_03_05",
+          "label": "Mentors"
+        },
+        {
+          "id": "04_03_06",
+          "label": "Mentees / Proteges"
+        },
+        {
+          "id": "04_03_07",
+          "label": "Adversaries / Competitors"
+        }
+      ]
+    },
+    {
+      "branchID": "06_02",
+      "branchName": "HistoryMaker Themes",
+      "branchValues": [
+        {
+          "id": "06_02_01",
+          "label": "Achievement"
+        },
+        {
+          "id": "06_02_02",
+          "label": "Character"
+        },
+        {
+          "id": "06_02_03",
+          "label": "Change"
+        },
+        {
+          "id": "06_02_04",
+          "label": "Courage"
+        },
+        {
+          "id": "06_02_05",
+          "label": "Creativity"
+        },
+        {
+          "id": "06_02_06",
+          "label": "Faith"
+        },
+        {
+          "id": "06_02_07",
+          "label": "Leadership"
+        },
+        {
+          "id": "06_02_08",
+          "label": "Overcoming Odds"
+        },
+        {
+          "id": "06_02_09",
+          "label": "Perseverance"
+        },
+        {
+          "id": "06_02_10",
+          "label": "Sacrifice"
+        },
+        {
+          "id": "06_02_11",
+          "label": "Struggle"
+        },
+        {
+          "id": "06_02_12",
+          "label": "Success"
+        },
+        {
+          "id": "06_02_13",
+          "label": "Wisdom"
+        },
+        {
+          "id": "06_02_14",
+          "label": "Passion"
+        },
+        {
+          "id": "06_02_15",
+          "label": "Hope"
+        }
+      ]
+    },
+    {
+      "branchID": "06_01",
+      "branchName": "Important Quality of Story",
+      "branchValues": [
+        {
+          "id": "06_01_01",
+          "label": "Emotionally Evocative"
+        },
+        {
+          "id": "06_01_02",
+          "label": "Humorous"
+        },
+        {
+          "id": "06_01_03",
+          "label": "Nostalgic"
+        },
+        {
+          "id": "06_01_04",
+          "label": "Philosophical"
+        },
+        {
+          "id": "06_01_05",
+          "label": "Inspirational / Motivational"
+        },
+        {
+          "id": "06_01_06",
+          "label": "Surprising / Unexpected"
+        },
+        {
+          "id": "06_01_08",
+          "label": "Pensive / Thoughtful"
+        },
+        {
+          "id": "06_01_09",
+          "label": "Self Reflective"
+        },
+        {
+          "id": "06_01_10",
+          "label": "Uncertain"
+        },
+        {
+          "id": "06_01_12",
+          "label": "Matter of Fact"
+        }
+      ]
+    },
+    {
+      "branchID": "06_03",
+      "branchName": "Highlight Reel",
+      "branchValues": [
+        {
+          "id": "06_03_01",
+          "label": "Great Story"
+        },
+        {
+          "id": "06_03_02",
+          "label": "Historically Significant"
+        },
+        {
+          "id": "06_03_03",
+          "label": "Captures HM Personality"
+        },
+        {
+          "id": "06_03_04",
+          "label": "Fantastic Quote(s) by HM"
+        }
+      ]
+    },
+    {
+      "branchID": "05_01",
+      "branchName": "Narration Type",
+      "branchValues": [
+        {
+          "id": "05_01_01",
+          "label": "Anecdote"
+        },
+        {
+          "id": "05_01_02",
+          "label": "Drawing a Lesson from"
+        },
+        {
+          "id": "05_01_03",
+          "label": "Making a Value Judgment"
+        },
+        {
+          "id": "05_01_04",
+          "label": "Arguing a Position"
+        },
+        {
+          "id": "05_01_05",
+          "label": "Assessing or Summing Up"
+        },
+        {
+          "id": "05_01_07",
+          "label": "Looking Toward the Future"
+        },
+        {
+          "id": "05_01_08",
+          "label": "Making a Cultural Comparison"
+        },
+        {
+          "id": "05_01_09",
+          "label": "Making a Temporal Comparison"
+        },
+        {
+          "id": "05_01_10",
+          "label": "Making a Geographic Comparison"
+        },
+        {
+          "id": "05_01_11",
+          "label": "Explaining a Concept / Illustrating a Point"
+        },
+        {
+          "id": "05_01_13",
+          "label": "Using a Metaphor"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+﻿{
+  "occupationTypes": [
+    {
+      "id": "1",
+      "label": "Arts, Design, Entertainment, Sports and Media",
+      "description": "Arts, Design, Entertainment, Sports and Media"
+    },
+    {
+      "id": "2",
+      "label": "Business and Financial Operations",
+      "description": "Business and Financial Operations"
+    },
+    {
+      "id": "4",
+      "label": "Education, Training, and Library",
+      "description": "Education, Training, and Library"
+    },
+    {
+      "id": "5",
+      "label": "Healthcare Practitioners and Technical",
+      "description": "Healthcare Practitioners and Technical"
+    },
+    {
+      "id": "6",
+      "label": "Legal",
+      "description": "Legal"
+    },
+    {
+      "id": "7",
+      "label": "Life, Physical, and Social Science",
+      "description": "Life, Physical, and Social Science"
+    },
+    {
+      "id": "8",
+      "label": "Management",
+      "description": "Management"
+    },
+    {
+      "id": "9",
+      "label": "Military Specific",
+      "description": "Military Specific"
+    },
+    {
+      "id": "11",
+      "label": "Personal Care and Service",
+      "description": "Personal Care and Service"
+    },
+    {
+      "id": "12",
+      "label": "Protective Service",
+      "description": "Protective Service"
+    },
+    {
+      "id": "13",
+      "label": "Transportation and Material Moving",
+      "description": "Transportation and Material Moving"
+    },
+    {
+      "id": "14",
+      "label": "Architecture and Engineering",
+      "description": "Architecture and Engineering"
+    },
+    {
+      "id": "15",
+      "label": "Building and Grounds Cleaning and Maintenance",
+      "description": "Building and Grounds Cleaning and Maintenance"
+    },
+    {
+      "id": "16",
+      "label": "Computer and Mathematical",
+      "description": "Computer and Mathematical"
+    },
+    {
+      "id": "17",
+      "label": "Construction and Extraction",
+      "description": "Construction and Extraction"
+    },
+    {
+      "id": "18",
+      "label": "Farming, Fishing, and Forestry",
+      "description": "Farming, Fishing, and Forestry"
+    },
+    {
+      "id": "19",
+      "label": "Food Preparation and Serving Related",
+      "description": "Food Preparation and Serving Related"
+    },
+    {
+      "id": "21",
+      "label": "Installation, Maintenance, and Repair",
+      "description": "Installation, Maintenance, and Repair"
+    },
+    {
+      "id": "22",
+      "label": "Office and Administrative Support",
+      "description": "Office and Administrative Support"
+    },
+    {
+      "id": "23",
+      "label": "Production",
+      "description": "Production"
+    },
+    {
+      "id": "24",
+      "label": "Sales and Related",
+      "description": "Sales and Related"
+    },
+    {
+      "id": "40",
+      "label": "Activists, Community and Social Services",
+      "description": "Activists, Community and Social Services"
+    },
+    {
+      "id": "41",
+      "label": "Government",
+      "description": "Government"
+    }
+  ],
+  "makerCategories": [
+    {
+      "id": "25",
+      "label": "ArtMaker",
+      "description": "ArtMaker"
+    },
+    {
+      "id": "26",
+      "label": "BusinessMaker",
+      "description": "BusinessMaker"
+    },
+    {
+      "id": "27",
+      "label": "CivicMaker",
+      "description": "CivicMaker"
+    },
+    {
+      "id": "28",
+      "label": "EducationMaker",
+      "description": "EducationMaker"
+    },
+    {
+      "id": "29",
+      "label": "EntertainmentMaker",
+      "description": "EntertainmentMaker"
+    },
+    {
+      "id": "30",
+      "label": "LawMaker",
+      "description": "LawMaker"
+    },
+    {
+      "id": "31",
+      "label": "MediaMaker",
+      "description": "MediaMaker"
+    },
+    {
+      "id": "32",
+      "label": "MedicalMaker",
+      "description": "MedicalMaker"
+    },
+    {
+      "id": "33",
+      "label": "MilitaryMaker",
+      "description": "MilitaryMaker"
+    },
+    {
+      "id": "34",
+      "label": "MusicMaker",
+      "description": "MusicMaker"
+    },
+    {
+      "id": "35",
+      "label": "PoliticalMaker",
+      "description": "PoliticalMaker"
+    },
+    {
+      "id": "36",
+      "label": "ReligionMaker",
+      "description": "ReligionMaker"
+    },
+    {
+      "id": "37",
+      "label": "ScienceMaker",
+      "description": "ScienceMaker"
+    },
+    {
+      "id": "38",
+      "label": "SportsMaker",
+      "description": "SportsMaker"
+    },
+    {
+      "id": "39",
+      "label": "StyleMaker",
+      "description": "StyleMaker"
+    }
+  ]
+}
