@@ -194,7 +194,8 @@ namespace iCoreService.AzureServices
         /// <param name="jobFacet">Filters results based on the given comma-separated list of job types.</param>
         /// <param name="lastInitialFacet">Filter results by first letter of last name, e.g., C is filtering to all last names starting with C.</param>
         /// <param name="dateToday">String equivalent of today's date.</param>
-        /// <returns>A DocumentSearchResult object containing the biographies of people born in the current month.</returns>
+        /// <returns>A DocumentSearchResult object containing the biographies of people born in the current month, 
+        /// ordered by birth day and then oldest to youngest on same birth day.</returns>
         internal async Task<DocumentSearchResult> GetPeopleBornThisMonth(int pageSize, int currentPage, string genderFacet,
             string birthYearFacet, string makerFacet, string jobFacet, string lastInitialFacet, string dateToday)
         {
@@ -224,6 +225,9 @@ namespace iCoreService.AzureServices
             sp.Filter += string.Format("(birthMonth eq {0} and birthDay ge {1} and birthDay le {2})",
                     today.Month, 1, 31); // don't worry about nonsensical dates like April 31 - they shouldn't be in data store
 
+            // Order people by the day of their birth, 1 to 31 and then oldest to youngest:
+            sp.OrderBy = new List<String> { "birthDay asc", "birthYear asc" };
+
             return await biographyIndex.Documents.SearchAsync(string.Empty, sp);
         }
 
@@ -238,7 +242,8 @@ namespace iCoreService.AzureServices
         /// <param name="jobFacet">Filters results based on the given comma-separated list of job types.</param>
         /// <param name="lastInitialFacet">Filter results by first letter of last name, e.g., C is filtering to all last names starting with C.</param>
         /// <param name="dateToday">String equivalent of today's date.</param>
-        /// <returns>A DocumentSearchResult object containing the biographies of people born in the current week.</returns>
+        /// <returns>A DocumentSearchResult object containing the biographies of people born in the current week, sorted by day (mm-dd) of birth
+        /// (and then oldest to youngest for same mm-dd).</returns>
         internal async Task<DocumentSearchResult> GetPeopleBornThisWeek(int pageSize, int currentPage, string genderFacet, 
             string birthYearFacet, string makerFacet, string jobFacet, string lastInitialFacet, string dateToday)
         {
@@ -272,12 +277,19 @@ namespace iCoreService.AzureServices
             {
                 sp.Filter += string.Format("(birthMonth eq {0} and birthDay ge {1} and birthDay le {2})",
                     startOfWeek.Month, startOfWeek.Day, endOfWeek.Day);
+
+                // Order people by the day of their birth, 1 to 31 and then oldest to youngest:
+                sp.OrderBy = new List<String> { "birthDay asc", "birthYear asc" };
             }
             else
             {
                 // Week spans across months so must adjust query accordingly
                 sp.Filter += string.Format("((birthMonth eq {0} and birthDay ge {1}) or (birthMonth eq {2} and birthDay le {3}))",
                     startOfWeek.Month, startOfWeek.Day, endOfWeek.Month, endOfWeek.Day);
+
+                // Order people by the month first, and then day of their birth, 1 to 31, and then oldest to youngest:
+                sp.OrderBy = new List<String> { "birthMonth asc", "birthDay asc", "birthYear asc" };
+
             }
 
             return await biographyIndex.Documents.SearchAsync(string.Empty, sp);
