@@ -37,8 +37,9 @@ namespace iCoreService.Controllers
 
                 response.Content.Headers.ContentLength = json.Length;
                 response.Content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+#if !NO_CACHE_FOR_TESTING_API
                 response.Headers.CacheControl = new CacheControlHeaderValue() { MaxAge = TimeSpan.FromDays(1), Public = true };
-
+#endif
                 return response;
             }
             catch (Exception ex)

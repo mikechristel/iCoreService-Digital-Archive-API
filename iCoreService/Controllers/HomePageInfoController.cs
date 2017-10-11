@@ -32,8 +32,9 @@ namespace iCoreService.Controllers
                 HomePageInfo homePageInfo = await azureSearch.HomePageInfo();
 
                 var response = Request.CreateResponse(HttpStatusCode.OK, homePageInfo, Configuration.Formatters.JsonFormatter);
+#if !NO_CACHE_FOR_TESTING_API
                 response.Headers.CacheControl = new CacheControlHeaderValue() { MaxAge = TimeSpan.FromDays(1), Public = true };
-
+#endif
                 return response;
             }
             catch (Exception ex)

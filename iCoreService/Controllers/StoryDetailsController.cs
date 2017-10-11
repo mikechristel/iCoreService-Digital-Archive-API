@@ -89,8 +89,9 @@ namespace iCoreService.Controllers
 
                     response.Content.Headers.ContentLength = result.BlobLength;
                     response.Content.Headers.ContentType = new MediaTypeHeaderValue(result.BlobContentType);
+#if !NO_CACHE_FOR_TESTING_API
                     response.Headers.CacheControl = new CacheControlHeaderValue() { MaxAge = TimeSpan.FromDays(1), Public = true };
-
+#endif
                     return response;
                 }
                 else
@@ -104,8 +105,9 @@ namespace iCoreService.Controllers
                     storyDetails.MatchTerms = await FindMatches(queryTerms, storyDetails.Transcript);
 
                     var response = Request.CreateResponse(HttpStatusCode.OK, storyDetails, Configuration.Formatters.JsonFormatter);
+#if !NO_CACHE_FOR_TESTING_API
                     response.Headers.CacheControl = new CacheControlHeaderValue() { MaxAge = TimeSpan.FromDays(1), Public = true };
-
+#endif
                     return response;
                 }
             }
